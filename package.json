@@ -1,0 +1,32 @@
+{
+  "name": "mission",
+  "version": "0.0.0",
+  "description": "a node.js and angular.js todo list app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NathanBland/mission"
+  },
+  "keywords": [
+    "angular",
+    "node.js",
+    "todo"
+  ],
+  "author": "Nathan Bland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NathanBland/mission/issues"
+  },
+  "homepage": "https://github.com/NathanBland/mission",
+  "dependencies": {
+    "express": "^4.11.0",
+    "mongoose"   : "~3.6.2",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+    }
+}
